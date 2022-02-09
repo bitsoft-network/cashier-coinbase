@@ -1,0 +1,24 @@
+{
+  "name": "cashier-coinbase",
+  "version": "1.0.0",
+  "description": "Simplified Coinbase API manager package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitsoft-network/cashier-coinbase.git"
+  },
+  "keywords": [
+    "coinbase",
+    "api",
+    "http"
+  ],
+  "author": "Leevi Halme <me@leevihal.me> (https://leevihal.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitsoft-network/cashier-coinbase/issues"
+  },
+  "homepage": "https://github.com/bitsoft-network/cashier-coinbase#readme"
+}
