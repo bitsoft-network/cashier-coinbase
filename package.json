@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/bitsoft-network/cashier-coinbase/issues"
   },
-  "homepage": "https://github.com/bitsoft-network/cashier-coinbase#readme"
+  "homepage": "https://github.com/bitsoft-network/cashier-coinbase#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "coinbase": "^2.0.8"
+  }
 }
