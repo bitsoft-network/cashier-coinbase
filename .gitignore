@@ -1,0 +1,5 @@
+# Pacakge testing directories
+tests/
+
+# Dependency directories
+node_modules/
