@@ -73,7 +73,7 @@ class CoinbaseClient {
           const host = error.response.request.host;
           const path = error.response.request.path;
 
-          console.log(error.response.data);
+          if (this.debug) console.log("[Coinbase]", error.response.data);
 
           return Promise.reject(
             new Error(
