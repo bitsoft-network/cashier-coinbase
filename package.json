@@ -1,6 +1,6 @@
 {
   "name": "cashier-coinbase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplified Coinbase API manager package.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/bitsoft-network/cashier-coinbase#readme",
   "dependencies": {
-    "axios": "^0.25.0",
-    "coinbase": "^2.0.8"
+    "axios": "^0.25.0"
   }
 }
