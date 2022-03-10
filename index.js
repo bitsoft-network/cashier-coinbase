@@ -20,11 +20,11 @@ class CoinbaseClient {
     this.notificationsKey = "";
 
     // Setup Axios Client
-    this.setupClient();
+    this.#setupClient();
   }
 
   // Setup Axios client
-  async setupClient() {
+  async #setupClient() {
     if (this.debug)
       console.log("[Coinbase] setupClient() : Started client setup...");
 
