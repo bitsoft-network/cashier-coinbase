@@ -18,6 +18,7 @@ class CoinbaseClient {
     this.cashierWallets = {};
     this.ready = false;
     this.notificationsKey = "";
+    this.api = null;
 
     // Setup Axios Client
     this.#setupClient();
@@ -356,6 +357,11 @@ class CoinbaseClient {
         resolve(false);
       }
     });
+  }
+
+  // Expose API
+  async getApiInstance() {
+    return this.api;
   }
 }
 
