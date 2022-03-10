@@ -1,5 +1,5 @@
 {
-  "name": "cashier-coinbase",
+  "name": "@bitsoft-network/cashier-coinbase",
   "version": "1.0.3",
   "description": "Simplified Coinbase API manager package.",
   "main": "index.js",
