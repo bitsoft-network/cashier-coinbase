@@ -1,6 +1,6 @@
 {
   "name": "@bitsoft-network/cashier-coinbase",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simplified Coinbase API manager package.",
   "main": "index.js",
   "scripts": {
