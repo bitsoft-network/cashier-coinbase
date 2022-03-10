@@ -288,6 +288,7 @@ class CoinbaseClient {
         resolve({
           id: response.data.id,
           network: response.data.network,
+          _json: response.data,
         });
       } catch (error) {
         reject(error);
